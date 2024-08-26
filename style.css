@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 
 :root {
+    --stone-100: hsl(30, 54%, 90%);
     --stone-150: hsl(30, 18%, 87%);
     --stone-600: hsl(30, 10%, 34%);
     --stone-900: hsl(24, 5%, 18%);
@@ -16,12 +17,78 @@
 }
 
 body {
+    width: 100vw;
     font-family: 'Outfit', sans-serif;
+    color: var(--stone-600);
+    background-color: var(--stone-100);
+}
+
+main {
+    width: clamp(18.75rem, 60%, 54rem);
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background-color: white;
+}
+
+img {
+    width: 100%;
+    border-radius: 0.6rem;
 }
 
 h1, h2 {
     font-family: 'Young Serif', serif;
 }
 
+ul, ol, li {
+    padding-left: 22px;
+}
+
+hr {
+    color: var(--stone-150);
+}
+
+.stone-title {
+    color: var(--stone-900);
+}
+
+.brown-title {
+    color: var(--brown-800);
+}
+
+.rose-title {
+    color: var(--rose-800);
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.prep {
+    background-color: var(--rose-50);
+    padding: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 2rem;
+    gap: 1rem;
+}
+
+.grid .value {
+    color: var(--brown-800);
+    font-weight: 600;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+/* Utilities */
+
+.my-1 {
+    margin: 0.8rem 0;
+}
+
+.my-2 {
+    margin: 1.6rem 0;
+}
