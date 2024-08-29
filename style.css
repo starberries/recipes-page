@@ -48,6 +48,44 @@ hr {
     border: 1px solid var(--stone-150);
 }
 
+table {
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+    padding-left: 2rem;
+    gap: 1rem;
+    border-collapse: collapse;
+}
+
+tr {
+    width: inherit;
+    border-bottom: 1px var(--stone-150) solid;
+}
+
+tr.last-row {
+    border: none;
+}
+
+th {
+    font-weight: 400;
+}
+
+th, td {
+    height: 3rem;
+    padding-left: 2rem;
+}
+
+td {
+    color: var(--brown-800);
+    font-weight: 600;
+}
+
+.prep {
+    background-color: var(--rose-50);
+    border-radius: 0.7rem;
+    padding: 1.5rem;
+}
+
 .stone-title {
     color: var(--stone-900);
 }
@@ -61,47 +99,17 @@ hr {
     font-family: 'Outfit', sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
+    margin-bottom: 1rem;
 }
-
-.prep {
-    background-color: var(--rose-50);
-    border-radius: 0.7rem;
-    padding: 1.5rem;
-}
-
-.prep ul {
-    margin-top: 1rem;
-    line-height: 1.8rem;
-}
-
-table {
-    width: 100%;
-    text-align: left;
-    font-weight: 400;
-    padding-left: 2rem;
-    gap: 1rem;
-    border-collapse: collapse;
-}
-
-tr {
-    width: inherit;
-    border-bottom: 2px var(--stone-150) solid;
-}
-
-th {
-    font-weight: 400;
-}
-
-td {
-    color: var(--brown-800);
-    font-weight: 600;
-}
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* Utilities */
+
+.lh-1-8 {
+    line-height: 1.8rem;
+}
 
 .my-1 {
     margin: 0.8rem 0;
