@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [GitHub](https://github.com/starberries/recipes-page)
-- Live Site URL: [GitHub Pages Site](https://starberries.github.io/recipe-pages/)
+- Live Site URL: [GitHub Pages Site](https://starberries.github.io/recipes-page/)
 
 ## My process
 
