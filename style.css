@@ -40,11 +40,21 @@ h1, h2 {
     font-family: 'Young Serif', serif;
 }
 
-ul, ul li {
+ul, ol, li {
     padding-left: 22px;
 }
 
 ol {
+    color: var(--rose-800);
+    font-weight: bold;
+}
+
+ol p {
+    color: var(--stone-600);
+    font-weight: normal;
+}
+
+/* ol {
     counter-reset: item;
 }
 
@@ -58,7 +68,7 @@ ol li:before {
     color: var(--rose-800);
     font-weight: bold;
     padding-right: 24px;
-}
+} */
 
 hr {
     border: 1px solid var(--stone-150);
