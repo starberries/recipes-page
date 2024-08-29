@@ -39,6 +39,8 @@ For this exercise, I was able to further explore a number of different topics:
 - Styling tables and vertical table organization
 - Styling the count numbers of `ol` and `li` elements using `counter-reset` and `counter-increment`. I didn't end up using these in the final result, as it was just easier to accomplish the correct positioning and alignment with additional organizing of HTML tags and simpler styling, but that'll likely be useful information going forward.
 
+Update: And of course after going through all of that, I look through the dev console and suddenly see the `::marker` pseudoclass which would have made things a lot easier from the start had I known about that.
+
 ### Continued development
 
 I definitely had to reorganize the way I did the HTML and CSS at a few different points throughout this, owing largely to a lack of planning, so it'll be nice to work on that more going forward. Knowing more about how to style and organize different types of elements and layouts as I progress will also do a lot to make that easier.
