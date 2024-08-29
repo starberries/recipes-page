@@ -12,15 +12,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
 ### Screenshot
 
-<!-- ![](./screenshot.jpg) -->
+![Screenshot](./images/screenshot.png)
 
 ### Links
 
@@ -36,16 +34,14 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-<!-- Stuff here -->
+For this exercise, I was able to further explore a number of different topics:
+- Styling the `hr` element
+- Styling tables and vertical table organization
+- Styling the count numbers of `ol` and `li` elements using `counter-reset` and `counter-increment`. I didn't end up using these in the final result, as it was just easier to accomplish the correct positioning and alignment with additional organizing of HTML tags and simpler styling, but that'll likely be useful information going forward.
 
 ### Continued development
 
-<!-- Stuff here -->
-
-### Useful resources
-
-<!-- - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
+I definitely had to reorganize the way I did the HTML and CSS at a few different points throughout this, owing largely to a lack of planning, so it'll be nice to work on that more going forward. Knowing more about how to style and organize different types of elements and layouts as I progress will also do a lot to make that easier.
 
 ## Author
 
