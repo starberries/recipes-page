@@ -65,7 +65,13 @@ hr {
 
 .prep {
     background-color: var(--rose-50);
+    border-radius: 0.7rem;
     padding: 1.5rem;
+}
+
+.prep ul {
+    margin-top: 1rem;
+    line-height: 1.8rem;
 }
 
 table {
