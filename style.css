@@ -24,7 +24,7 @@ body {
 }
 
 main {
-    width: clamp(18.75rem, 60%, 54rem);
+    width: clamp(18.75rem, 60%, 46rem);
     margin: 4rem auto;
     padding: 2rem;
     border-radius: 1.5rem;
@@ -45,7 +45,7 @@ ul, ol, li {
 }
 
 hr {
-    color: var(--stone-150);
+    border: 1px solid var(--stone-150);
 }
 
 .stone-title {
@@ -68,17 +68,29 @@ hr {
     padding: 1.5rem;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+table {
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
     padding-left: 2rem;
     gap: 1rem;
+    border-collapse: collapse;
 }
 
-.grid .value {
+tr {
+    width: inherit;
+    border-bottom: 2px var(--stone-150) solid;
+}
+
+th {
+    font-weight: 400;
+}
+
+td {
     color: var(--brown-800);
     font-weight: 600;
 }
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
